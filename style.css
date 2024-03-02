@@ -462,13 +462,16 @@ ion-icon{
     width: 20px;
 }
 
-.certificado-lista, .projeto-lista {
+.certificado-lista {
     display: flex;
     gap: 10px;
 }
 
 .projeto-lista {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 10px;
 }
 
 .certificado-certificados, .projeto-certificados {
@@ -701,15 +704,7 @@ input:focus, textarea:focus {
     .projeto-lista {
         justify-content: center;
     }
-}
 
-@media (max-width: 600px) {
-    .abertura-geral > img {
-        display: none;
-    }
-}
-
-@media (max-width: 470px) {
     .certificado-escolha, .projeto-escolha {
         display: flex;
         justify-content: center;
@@ -717,5 +712,11 @@ input:focus, textarea:focus {
 
     .projeto-lista {
         justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .abertura-geral > img {
+        display: none;
     }
 }
