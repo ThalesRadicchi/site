@@ -620,7 +620,8 @@ input:focus, textarea:focus {
 
 
 
-@media (max-width: 900px) {
+@media (max-width: 900px) {   
+
     .hamburguer {
         display: block;
         border: none;
@@ -652,8 +653,8 @@ input:focus, textarea:focus {
         align-items: center;
         position: absolute;
 
-        top: 80px;
-        right: -200px;
+        top: -200px;
+        right: 0px;
         width: 150px;
         height: 170px;
 
@@ -667,10 +668,10 @@ input:focus, textarea:focus {
         
         z-index: 1;
 
-        visibility: hidden;
     }
 
     .nav.active .nav-list {
+
         top: 80px;
         right: 0px;
         pointer-events: all;
