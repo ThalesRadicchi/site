@@ -666,12 +666,17 @@ input:focus, textarea:focus {
         border-radius: 10px 0px 0px 10px;       
         
         z-index: 1;
+
+        visibility: hidden;
+        display: none;
     }
 
     .nav.active .nav-list {
         top: 80px;
         right: 0px;
         pointer-events: all;
+
+        visibility: visible;
     }
 
 
