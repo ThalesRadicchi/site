@@ -458,8 +458,13 @@ ion-icon{
 }
 
 .projeto-skills > img, .projeto-linguagem {
-    height: 20px;
-    width: 20px;
+    height: 22px;
+    width: 22px;
+}
+
+.projeto-linguagem {
+    height: 26px;
+    width: 26px;
 }
 
 .certificado-lista {
@@ -469,9 +474,11 @@ ion-icon{
 
 .projeto-lista {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     grid-gap: 10px;
+
+    justify-content: center;
+
 }
 
 .certificado-certificados, .projeto-certificados {
@@ -487,7 +494,7 @@ ion-icon{
 }
 
 .projeto-certificados {
-    max-width: 400px;
+    max-width: 350px;
 }
 .certificado-certificados > img {
     width: 300px;
@@ -505,8 +512,8 @@ ion-icon{
 }
 
 .projeto-certificados > a > img {
-    width: 250px;
-    height: 150px;
+    min-width: 250px;
+    height: 120px;
     border-radius: 20px;
     border: 1px solid var(--white);
 }
