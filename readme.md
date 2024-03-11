@@ -2,7 +2,7 @@
 <h1 align="center"> PortFolio </h1>
 
 <p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
+Todos os direitos são detidos para em prol do Thales Radicchi, não é permitido a cópia, salvo a autorização.
 </p>
 
 <p align="center">
